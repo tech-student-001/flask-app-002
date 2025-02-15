@@ -42,7 +42,7 @@ git --version
 
 ### 2️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/tech-student-001/flask-app-002
+git clone https://github.com/tech-student-001/flask-app-002.git
 cd flask-app-002
 ```
 
