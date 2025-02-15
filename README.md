@@ -59,7 +59,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Set Up the Database  
+### 5️⃣ Set Up the Database and populate it with sample data 
 ```bash
 flask shell
 ```
@@ -69,7 +69,10 @@ from app import db
 db.create_all()
 exit()
 ```
-
+Now, run this to populate the database with the sample data:  
+```bash
+python seed.py
+```
 ### 6️⃣ Run the Flask App  
 ```bash
 flask run
